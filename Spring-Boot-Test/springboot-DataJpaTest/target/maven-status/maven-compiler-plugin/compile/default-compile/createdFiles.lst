@@ -1,0 +1,3 @@
+net\javaguides\springboot\model\Employee.class
+net\javaguides\springboot\SpringbootThymeleafCrudWebAppApplication.class
+net\javaguides\springboot\repository\EmployeeRepository.class

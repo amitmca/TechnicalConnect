@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: net.javaguides.spirngboot.SpringbootTestcontainersDemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.201 s <<< FAILURE! - in net.javaguides.spirngboot.SpringbootTestcontainersDemoApplicationTests
+givenStudents_whenGetAllStudents_thenListOfStudents  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class net.javaguides.spirngboot.AbstractContainerBaseTest
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.IllegalStateException: Could not find a valid Docker environment. Please see logs and check configuration [in thread "main"]
+

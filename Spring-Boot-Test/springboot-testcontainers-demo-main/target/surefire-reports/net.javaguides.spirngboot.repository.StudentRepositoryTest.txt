@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: net.javaguides.spirngboot.repository.StudentRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 6.182 s <<< FAILURE! - in net.javaguides.spirngboot.repository.StudentRepositoryTest
+givenStudentId_whenfindbyId_thenReturnSavedStudent  Time elapsed: 0.027 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.IllegalStateException: Could not find a valid Docker environment. Please see logs and check configuration
+
+givenStudentObject_whenSave_thenReturnSavedStudent  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class net.javaguides.spirngboot.repository.StudentRepositoryTest
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionInInitializerError [in thread "main"]
+
